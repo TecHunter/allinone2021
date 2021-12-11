@@ -6,9 +6,9 @@
 - [[Settings]](/2021/settings)
 - [[Log Out]](/2021/auth/logout)
 
-TecHunter 7\*
+TecHunter 12\*
 
-# 0x0000\| [2021](/2021)
+# [2021](/2021)
 
 - [[Calendar]](/2021)
 - [[AoC++]](/2021/support)
@@ -18,7 +18,7 @@ TecHunter 7\*
 
 Our [sponsors](/2021/sponsors) help make Advent of Code possible:
 
-[Riot Games](https://riot.com/3E7Xe3t) \- Unleash play and level up your career with Riot Games!
+[McGraw Hill](https://www.mheducation.com/about.html) \- Join us in transforming education. We are looking for talented, passionate, mission-driven software engineers and leaders looking to make a difference globally. COVID has provided the inflection point, come set the direction.
 
 ## \-\-\- Day 6: Lanternfish ---
 
@@ -79,10 +79,24 @@ In this example, after 18 days, there are a total of `26` fish. After 80 days, t
 
 Find a way to simulate lanternfish. _How many lanternfish would there be after 80 days?_
 
-To begin, [get your puzzle input](6/input).
+Your puzzle answer was `386755`.
 
-Answer:
+## \-\-\- Part Two ---
+
+Suppose the lanternfish live forever and have unlimited food and space. Would they take over the entire ocean?
+
+After 256 days in the example above, there would be a total of `<em>26984457539</em>` lanternfish!
+
+_How many lanternfish would there be after 256 days?_
+
+Your puzzle answer was `1732731810807`.
+
+Both parts of this puzzle are complete! They provide two gold stars: \*\*
+
+At this point, you should [return to your Advent calendar](/2021) and try another puzzle.
+
+If you still want to see it, you can [get your puzzle input](6/input).
 
 You can also [Shareon
-[Twitter](https://twitter.com/intent/tweet?text=%22Lanternfish%22+%2D+Day+6+%2D+Advent+of+Code+2021&url=https%3A%2F%2Fadventofcode%2Ecom%2F2021%2Fday%2F6&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)] this puzzle.
+[Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+%22Lanternfish%22+%2D+Day+6+%2D+Advent+of+Code+2021&url=https%3A%2F%2Fadventofcode%2Ecom%2F2021%2Fday%2F6&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)] this puzzle.
 
