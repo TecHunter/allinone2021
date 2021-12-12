@@ -6,9 +6,9 @@
 - [[Settings]](/2021/settings)
 - [[Log Out]](/2021/auth/logout)
 
-TecHunter 7\*
+TecHunter 13\*
 
-# // [2021](/2021)
+# 0.0.0.0: [2021](/2021)
 
 - [[Calendar]](/2021)
 - [[AoC++]](/2021/support)
@@ -18,7 +18,7 @@ TecHunter 7\*
 
 Our [sponsors](/2021/sponsors) help make Advent of Code possible:
 
-[Dynatrace](https://dynatr.ac/aoc) \- \\*\\*\\* ODE TO THE CODE \*\*\* In a world that runs on software, Dynatrace ensures that software works perfectly. Join our mission.
+[corpuls](https://corpuls.world/karriere/stellenangebote/code-to-save-lives.php) \- <3<3<3 where your code might actually save lives .....\_\_...\_\_..... ..../...v...\\.... ....\|.......\|.... .....\\...../..... .......\ /.......
 
 ## \-\-\- Day 7: The Treachery of Whales ---
 
@@ -57,10 +57,37 @@ This costs a total of `<em>37</em>` fuel. This is the cheapest possible outcome;
 
 Determine the horizontal position that the crabs can align to using the least fuel possible. _How much fuel must they spend to align to that position?_
 
-To begin, [get your puzzle input](7/input).
+Your puzzle answer was `345197`.
+
+The first half of this puzzle is complete! It provides one gold star: \*
+
+## \-\-\- Part Two ---
+
+The crabs don't seem interested in your proposed solution. Perhaps you misunderstand crab engineering?
+
+As it turns out, crab submarine engines don't burn fuel at a constant rate. Instead, each change of 1 step in horizontal position costs 1 more unit of fuel than the last: the first step costs `1`, the second step costs `2`, the third step costs `3`, and so on.
+
+As each crab moves, moving further becomes more expensive. This changes the best horizontal position to align them all on; in the example above, this becomes `5`:
+
+- Move from`16` to `5`: `66` fuel
+- Move from`1` to `5`: `10` fuel
+- Move from`2` to `5`: `6` fuel
+- Move from`0` to `5`: `15` fuel
+- Move from`4` to `5`: `1` fuel
+- Move from`2` to `5`: `6` fuel
+- Move from`7` to `5`: `3` fuel
+- Move from`1` to `5`: `10` fuel
+- Move from`2` to `5`: `6` fuel
+- Move from`14` to `5`: `45` fuel
+
+This costs a total of `<em>168</em>` fuel. This is the new cheapest possible outcome; the old alignment position ( `2`) now costs `206` fuel instead.
+
+Determine the horizontal position that the crabs can align to using the least fuel possible so they can make you an escape route! _How much fuel must they spend to align to that position?_
 
 Answer:
 
+Although it hasn't changed, you can still [get your puzzle input](7/input).
+
 You can also [Shareon
-[Twitter](https://twitter.com/intent/tweet?text=%22The+Treachery+of+Whales%22+%2D+Day+7+%2D+Advent+of+Code+2021&url=https%3A%2F%2Fadventofcode%2Ecom%2F2021%2Fday%2F7&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)] this puzzle.
+[Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+Part+One+of+%22The+Treachery+of+Whales%22+%2D+Day+7+%2D+Advent+of+Code+2021&url=https%3A%2F%2Fadventofcode%2Ecom%2F2021%2Fday%2F7&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)] this puzzle.
 
